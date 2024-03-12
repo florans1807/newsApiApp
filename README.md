@@ -4,7 +4,7 @@ Frameworks: UIKit, Alamofire
 
 Contains list of news and sources around the world
 
-1. RootVC (List of sources)
+1. RootVC (List of sources) UICollectionView and UISearchBarController
 ![Simulator Screenshot - iPhone Xʀ - 2024-03-12 at 16 31 20](https://github.com/florans1807/newsApiApp/assets/72892126/70451589-5489-4a44-8909-b94e04acb7f5)
 
 2. Second VC (List of news by source)
