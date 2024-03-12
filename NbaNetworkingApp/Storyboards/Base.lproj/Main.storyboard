@@ -178,7 +178,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nsk-bg-ZE7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nsk-bg-ZE7" firstAttribute="bottom" secondItem="4Dw-qY-ZI8" secondAttribute="bottom" id="KyO-JO-aog"/>
                             <constraint firstItem="4Dw-qY-ZI8" firstAttribute="top" secondItem="nsk-bg-ZE7" secondAttribute="top" id="dvI-dX-6H3"/>

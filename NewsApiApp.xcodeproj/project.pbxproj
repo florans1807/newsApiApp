@@ -45,16 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A9A92972B7F96100081302A /* NbaNetworkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NbaNetworkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9A92972B7F96100081302A /* NewsApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A929A2B7F96100081302A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9A929C2B7F96100081302A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4A9A92A12B7F96100081302A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A9A92A32B7F96130081302A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9A92A62B7F96130081302A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9A92A82B7F96130081302A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A9A92AD2B7F96140081302A /* NbaNetworkingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NbaNetworkingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9A92AD2B7F96140081302A /* NewsApiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A92B12B7F96140081302A /* NbaNetworkingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NbaNetworkingAppTests.swift; sourceTree = "<group>"; };
-		4A9A92B72B7F96140081302A /* NbaNetworkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NbaNetworkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9A92B72B7F96140081302A /* NewsApiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A92BB2B7F96140081302A /* NbaNetworkingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NbaNetworkingAppUITests.swift; sourceTree = "<group>"; };
 		4A9A92BD2B7F96140081302A /* NbaNetworkingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NbaNetworkingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4A9A92CF2B7F99F70081302A /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		4A9A92982B7F96100081302A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A92972B7F96100081302A /* NbaNetworkingApp.app */,
-				4A9A92AD2B7F96140081302A /* NbaNetworkingAppTests.xctest */,
-				4A9A92B72B7F96140081302A /* NbaNetworkingAppUITests.xctest */,
+				4A9A92972B7F96100081302A /* NewsApiApp.app */,
+				4A9A92AD2B7F96140081302A /* NewsApiAppTests.xctest */,
+				4A9A92B72B7F96140081302A /* NewsApiAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A9A92962B7F96100081302A /* NbaNetworkingApp */ = {
+		4A9A92962B7F96100081302A /* NewsApiApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A9A92C12B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingApp" */;
+			buildConfigurationList = 4A9A92C12B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiApp" */;
 			buildPhases = (
 				4A9A92932B7F96100081302A /* Sources */,
 				4A9A92942B7F96100081302A /* Frameworks */,
@@ -223,18 +223,18 @@
 			);
 			dependencies = (
 			);
-			name = NbaNetworkingApp;
+			name = NewsApiApp;
 			packageProductDependencies = (
 				4AEB948C2B85054700D01815 /* Alamofire */,
 				4ABCE7632B88B802008F4670 /* AlamofireImage */,
 			);
 			productName = NbaNetworkingApp;
-			productReference = 4A9A92972B7F96100081302A /* NbaNetworkingApp.app */;
+			productReference = 4A9A92972B7F96100081302A /* NewsApiApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A9A92AC2B7F96140081302A /* NbaNetworkingAppTests */ = {
+		4A9A92AC2B7F96140081302A /* NewsApiAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A9A92C42B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingAppTests" */;
+			buildConfigurationList = 4A9A92C42B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiAppTests" */;
 			buildPhases = (
 				4A9A92A92B7F96140081302A /* Sources */,
 				4A9A92AA2B7F96140081302A /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				4A9A92AF2B7F96140081302A /* PBXTargetDependency */,
 			);
-			name = NbaNetworkingAppTests;
+			name = NewsApiAppTests;
 			productName = NbaNetworkingAppTests;
-			productReference = 4A9A92AD2B7F96140081302A /* NbaNetworkingAppTests.xctest */;
+			productReference = 4A9A92AD2B7F96140081302A /* NewsApiAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4A9A92B62B7F96140081302A /* NbaNetworkingAppUITests */ = {
+		4A9A92B62B7F96140081302A /* NewsApiAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A9A92C72B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingAppUITests" */;
+			buildConfigurationList = 4A9A92C72B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiAppUITests" */;
 			buildPhases = (
 				4A9A92B32B7F96140081302A /* Sources */,
 				4A9A92B42B7F96140081302A /* Frameworks */,
@@ -263,9 +263,9 @@
 			dependencies = (
 				4A9A92B92B7F96140081302A /* PBXTargetDependency */,
 			);
-			name = NbaNetworkingAppUITests;
+			name = NewsApiAppUITests;
 			productName = NbaNetworkingAppUITests;
-			productReference = 4A9A92B72B7F96140081302A /* NbaNetworkingAppUITests.xctest */;
+			productReference = 4A9A92B72B7F96140081302A /* NewsApiAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A9A92922B7F96100081302A /* Build configuration list for PBXProject "NbaNetworkingApp" */;
+			buildConfigurationList = 4A9A92922B7F96100081302A /* Build configuration list for PBXProject "NewsApiApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -308,9 +308,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A9A92962B7F96100081302A /* NbaNetworkingApp */,
-				4A9A92AC2B7F96140081302A /* NbaNetworkingAppTests */,
-				4A9A92B62B7F96140081302A /* NbaNetworkingAppUITests */,
+				4A9A92962B7F96100081302A /* NewsApiApp */,
+				4A9A92AC2B7F96140081302A /* NewsApiAppTests */,
+				4A9A92B62B7F96140081302A /* NewsApiAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -382,12 +382,12 @@
 /* Begin PBXTargetDependency section */
 		4A9A92AF2B7F96140081302A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A9A92962B7F96100081302A /* NbaNetworkingApp */;
+			target = 4A9A92962B7F96100081302A /* NewsApiApp */;
 			targetProxy = 4A9A92AE2B7F96140081302A /* PBXContainerItemProxy */;
 		};
 		4A9A92B92B7F96140081302A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A9A92962B7F96100081302A /* NbaNetworkingApp */;
+			target = 4A9A92962B7F96100081302A /* NewsApiApp */;
 			targetProxy = 4A9A92B82B7F96140081302A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,7 +603,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NbaNetworkingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NbaNetworkingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewsApiApp";
 			};
 			name = Debug;
 		};
@@ -623,7 +623,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NbaNetworkingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NbaNetworkingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewsApiApp";
 			};
 			name = Release;
 		};
@@ -666,7 +666,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A9A92922B7F96100081302A /* Build configuration list for PBXProject "NbaNetworkingApp" */ = {
+		4A9A92922B7F96100081302A /* Build configuration list for PBXProject "NewsApiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A9A92BF2B7F96140081302A /* Debug */,
@@ -675,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A9A92C12B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingApp" */ = {
+		4A9A92C12B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A9A92C22B7F96140081302A /* Debug */,
@@ -684,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A9A92C42B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingAppTests" */ = {
+		4A9A92C42B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A9A92C52B7F96140081302A /* Debug */,
@@ -693,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A9A92C72B7F96140081302A /* Build configuration list for PBXNativeTarget "NbaNetworkingAppUITests" */ = {
+		4A9A92C72B7F96140081302A /* Build configuration list for PBXNativeTarget "NewsApiAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A9A92C82B7F96140081302A /* Debug */,
