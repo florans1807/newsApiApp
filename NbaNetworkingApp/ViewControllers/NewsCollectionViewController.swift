@@ -9,11 +9,12 @@ import UIKit
 
 class NewsCollectionViewController: UICollectionViewController {
     
-    @IBOutlet weak var collectionLayout: UICollectionViewFlowLayout! {
-        didSet {
-            collectionLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-        }
-    }
+    @IBOutlet weak var collectionLayout: UICollectionViewFlowLayout! 
+//    {
+//        didSet {
+//            collectionLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+//        }
+//    }
     
     // MARK: - Private Properties
     var source: Source?
@@ -55,21 +56,15 @@ class NewsCollectionViewController: UICollectionViewController {
         }
     
         // Configure the cell
-        cell.maxWidth = collectionView.bounds.width - 20
-        cell.maxHeight = 0.6*UIScreen.main.bounds.height
-        cell.configure(article: articles[indexPath.row])
+        //cell.maxWidth = collectionView.bounds.width - 20
+        //cell.maxHeight = 0.6*UIScreen.main.bounds.height
         print(indexPath.row)
+        cell.configure(article: articles[indexPath.row])
     
         return cell
     }
 
     // MARK: UICollectionViewDelegate
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let url = URL(string: articles[indexPath.row].url) else { return }
-        //UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        //performSegue(withIdentifier: "showImage", sender: articles[indexPath.row])
-    }
-
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {

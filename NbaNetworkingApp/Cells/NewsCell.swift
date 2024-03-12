@@ -16,43 +16,44 @@ class NewsCell: UICollectionViewCell {
             newsImageView.layer.cornerRadius = 20.0
         }
     }
-    @IBOutlet private var maxWidthOfStackViewConstraint: NSLayoutConstraint! {
-         didSet {
-             //maxWidthOfStackViewConstraint.isActive = false
-         }
-     }
-    
-    @IBOutlet private var maxHeightOfStackViewConstraint: NSLayoutConstraint! {
-         didSet {
-             //maxHeightOfStackViewConstraint.isActive = false
-         }
-     }
+//    @IBOutlet private var maxWidthOfStackViewConstraint: NSLayoutConstraint! {
+//         didSet {
+//             //maxWidthOfStackViewConstraint.isActive = false
+//         }
+//     }
+//    
+//    @IBOutlet private var maxHeightOfStackViewConstraint: NSLayoutConstraint! {
+//         didSet {
+//             //maxHeightOfStackViewConstraint.isActive = false
+//         }
+//     }
     
     // MARK: - Private Properties
     private let networkManager = NetworkingService.shared
     private var spinnerView = UIActivityIndicatorView()
-    var maxWidth: CGFloat? = nil {
-         didSet {
-             guard let maxWidth = maxWidth else {
-                 return
-             }
-             maxWidthOfStackViewConstraint.isActive = true
-             maxWidthOfStackViewConstraint.constant = maxWidth
-         }
-     }
-    
-    var maxHeight: CGFloat? = nil {
-        didSet {
-            guard let maxHeight = maxHeight else {
-                return
-            }
-            maxHeightOfStackViewConstraint.isActive = true
-            maxHeightOfStackViewConstraint.constant = maxHeight
-        }
-    }
+//    var maxWidth: CGFloat? = nil {
+//         didSet {
+//             guard let maxWidth = maxWidth else {
+//                 return
+//             }
+//             maxWidthOfStackViewConstraint.isActive = true
+//             maxWidthOfStackViewConstraint.constant = maxWidth
+//         }
+//     }
+//    
+//    var maxHeight: CGFloat? = nil {
+//        didSet {
+//            guard let maxHeight = maxHeight else {
+//                return
+//            }
+//            maxHeightOfStackViewConstraint.isActive = true
+//            maxHeightOfStackViewConstraint.constant = maxHeight
+//        }
+//    }
     
     private var imageURL: URL? {
         didSet {
+            print(newsImageView.image ?? "no image")
             newsImageView.image = nil
             updateImage()
         }
@@ -62,6 +63,7 @@ class NewsCell: UICollectionViewCell {
     func configure(article: Article) {
         showSpinner(in: contentView)
         descriptionLabel.text = article.descriptionInfo
+        print(article.urlToImage ?? "no url")
         imageURL = URL(string: article.urlToImage ?? "")
     }
     
