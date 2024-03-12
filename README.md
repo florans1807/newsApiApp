@@ -1,5 +1,7 @@
 Rest API App on MVC based on open news API
+
 Frameworks: UIKit, Alamofire
+
 Contains list of news and sources around the world
 
 1. RootVC (List of sources)
